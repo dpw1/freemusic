@@ -1,0 +1,78 @@
+@import "variables.scss";
+
+.Hero {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  margin: 8px;
+  overflow-x: hidden;
+
+  * {
+    color: $text-color;
+  }
+
+  .Hero-wrapper {
+    border-radius: $border-radius;
+
+    background: linear-gradient(
+      355deg,
+      rgba(37, 80, 99, 1) 0%,
+      rgba(75, 161, 200, 1) 100%
+    );
+    display: block;
+    padding: 20px;
+    width: 100%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .Hero-figure {
+    max-width: 200px;
+    height: 200px;
+
+    border-radius: 50%;
+    box-shadow: $box-shadow-image;
+    margin-right: 30px;
+    overflow: hidden;
+    @media (max-width: $xs) {
+      display: block;
+      margin: 0 auto;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      border-radius: 50%;
+    }
+  }
+
+  .Hero-image {
+    width: calc(100% + 15px);
+
+    display: block;
+    position: relative;
+    left: 0px;
+  }
+
+  .Hero-title {
+    margin-bottom: 20px;
+  }
+
+  .Hero-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 40px;
+
+    @media (max-width: $xs) {
+      flex-direction: column-reverse;
+    }
+  }
+
+  .Hero-text {
+    margin-left: 20px;
+  }
+  .Hero-subtitle {
+    font-weight: 600;
+    color: hsla(0, 0%, 100%, 0.7);
+    margin-top: 10px;
+    line-height: 150%;
+  }
+}

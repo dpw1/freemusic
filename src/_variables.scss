@@ -1,0 +1,75 @@
+$border-radius: 8px;
+$border-radius-image: 4px;
+$box-shadow-image: 0 4px 60px rgba(0, 0, 0, 0.5);
+$page-margin: 8px;
+
+/* Colors */
+$white: #fff;
+$gray: #a7a7a7;
+$green: #1ed760;
+$text-color: $white;
+$text-color-secondary: $gray;
+$background-color: #121212;
+
+/* Font sizes */
+$font-size-h3: 18px;
+$font-size-h3-mobile: 16px;
+$font-size-h6: 11px;
+$font-size-h6-mobile: 11px;
+$font-size-h1: 90px;
+$font-size-h1-mobile: 72px;
+$font-size-p: 14px;
+$font-size-p-mobile: 13px;
+
+/* Media query */
+
+$lg: 1023px;
+$md: 991px;
+$xs: 749px;
+$xxs: 600px;
+$xxxs: 400px;
+
+/* Helper classes */
+.text-h1 {
+  font-size: $font-size-h1;
+  font-weight: 700;
+  letter-spacing: -6px;
+
+  @media (max-width: 749px) {
+    font-size: $font-size-h1-mobile;
+  }
+}
+
+.text-h3 {
+  font-size: $font-size-h3;
+  font-weight: 700;
+
+  @media (max-width: 749px) {
+    font-size: $font-size-h3-mobile;
+  }
+}
+
+.text-p {
+  font-family: "Gotham Rounded Light";
+  font-size: $font-size-p;
+  line-height: 1.4;
+  @media (max-width: 749px) {
+    font-size: $font-size-p-mobile;
+  }
+}
+
+.text-h6 {
+  font-family: "Gotham Rounded Light";
+  font-size: $font-size-h6;
+  @media (max-width: 749px) {
+    font-size: $font-size-p-mobile;
+  }
+}
+
+.text-color {
+  color: $text-color;
+}
+
+.text-color--secondary {
+  color: $text-color-secondary;
+}

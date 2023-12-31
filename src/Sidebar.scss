@@ -1,0 +1,34 @@
+@import "variables.scss";
+
+.Sidebar {
+  width: 72px;
+  border-radius: $border-radius;
+  background-color: black;
+  margin: $page-margin;
+  margin-right: 0;
+
+  @media (max-width: $xs) {
+    display: none;
+  }
+
+  .Sidebar-wrapper {
+    background: #121212;
+    border-radius: $border-radius;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+
+  a,
+  svg {
+    width: 40px;
+    height: 40px;
+    color: $white;
+  }
+
+  a + a {
+    margin-top: 10px;
+  }
+}
