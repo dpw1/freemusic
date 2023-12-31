@@ -22,7 +22,7 @@ export const _songsList = [
       `https://drive.google.com/uc?id=1wcScsSiz0IACUgYXqwUwtq-rscqY3jpj`,
     ),
     style: "Dark lo-fi",
-    mood: "Good for horror and thriller. Piano, bass, drum beat, lots of textures.",
+    mood: "Compatible with horror and thriller. Piano, bass, drum beat, lots of textures.",
     release: "Dec 31, 2023",
     duration: "1:44",
   },
