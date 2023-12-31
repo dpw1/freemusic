@@ -27,7 +27,7 @@ export default function Hero() {
               Download and use anywhere, <b>no attribution required</b>.
             </div>
             <div data-data="testss" className="Hero-title text-h1">
-              66Copyright Free Music
+              Copyright Free Music
             </div>
             <div className="Hero-subtitle text-p" data-o>
               Welcome! My name is Diego. All songs below were composed by me and

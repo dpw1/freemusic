@@ -12,6 +12,7 @@ $slider-width: 80%;
   height: 77px;
   display: flex;
   padding: 0 20px;
+  z-index: 3;
 
   .Player-left {
     display: flex;
