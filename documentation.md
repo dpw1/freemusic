@@ -61,4 +61,4 @@ console.log(obj)
 `git commit -m "deploy"`
 `git subtree push --prefix dist origin gh-pages` or `gh-pages -d dist`
 
-`npm run build && git add . && git commit -m "deploy" && git subtree push --prefix dist origin gh-pages `
+`git add . && git commit -m "deploy" && git push origin main`
