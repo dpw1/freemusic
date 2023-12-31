@@ -30,7 +30,7 @@
     max-width: 200px;
     height: 200px;
 
-    border-radius: 50%;
+    border-radius: $border-radius-image;
     box-shadow: $box-shadow-image;
     margin-right: 30px;
     overflow: hidden;
@@ -39,6 +39,7 @@
       margin: 0 auto;
       margin-top: 30px;
       margin-bottom: 10px;
+      border-radius: 50%;
       border-radius: 50%;
     }
   }
